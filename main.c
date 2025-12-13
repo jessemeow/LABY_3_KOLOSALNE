@@ -98,7 +98,6 @@ bool czyZnormalizowana(const kLiczba **liczba) {
             obecnaCyfra = obecnaCyfra->poprzedni;
             nastepnaCyfra = nastepnaCyfra->poprzedni;
         }
-
         if (czyRozne) {
             czyZnormalizowana(&nastepnaCyfra);
         } else {
